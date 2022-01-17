@@ -1,0 +1,41 @@
+video{
+    width: 98%;
+    margin: 0;
+    margin-top: -2em;
+    height:76%;
+
+
+}
+
+
+.benfit{
+    display: block;
+    column-count: 1;
+    padding-top: 15px;
+    width: 10em;
+    align-self: center;
+    padding-left: 5.5%;
+    border-radius: 9%;
+}
+
+.bt{
+    border: 2px black solid;
+    border-collapse: collapse;
+    background-color: rgba(220,220,220,.6);
+    padding: 3%;
+    border-radius: 9%;
+}
+
+.bt p {
+    font: 17px bold;
+}
+.bt img{
+    width: 20em;
+    align-self: center;
+    padding: 5%;
+    border-radius: 20%;
+}
+
+h2 {
+    color: red;
+}
