@@ -1,40 +1,50 @@
-video{
-    width: 50%;
-    margin: 0;
-    padding-left: 25%;
-    margin-top: -2em;
-    height:76%;
-}
+@media (max-device-width: 400px){
+    video {
+        width: 96%;
+        margin: 0;
+        margin-top: 1em;
+        height:76%;
+        z-index: 0;
+        position: relative;
+        background-color: maroon;
+        border: maroon 1em solid;
 
+    }
 
-.benfit{
-    display: block;
-    column-count: 1;
-    padding-top: 15px;
-    width: 10em;
-    align-self: center;
-    padding-left: 5.5%;
-    border-radius: 9%;
-}
+    html{
+        background-color: black;
+    }
 
-.bt{
-    border: 2px black solid;
-    border-collapse: collapse;
-    background-color: rgba(220,220,220,.6);
-    padding: 3%;
-    border-radius: 9%;
-}
+    .benfit {
+        display: block;
+        column-count: 1;
+        padding-top: 1px;
+        width: 97%;
+        align-self: center;
+        border-radius: 9%;
+        margin-left: -2.2em;
+    }
 
-.bt p {
-    font: 17px bold;
-}
-.bt img{
-    width: 20em;
-    align-self: center;
-    padding: 5%;
-    border-radius: 20%;
-}
+    .bt {
+        border: 2px black solid;
+        border-collapse: collapse;
+        background-color: rgba(220, 220, 220, 1);
+        padding: 1%;
+        border-radius: 9%;
+    }
 
-h2 {
-    color: purple;
+    .bt p {
+        font: 17px bold;
+    }
+
+    .bt img {
+        width: 50em;
+        align-self: center;
+        border-radius: 20%;
+    }
+
+    h2 {
+        color: maroon;
+        margin-top: -20em;
+    }
 }
