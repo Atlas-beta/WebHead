@@ -11,10 +11,6 @@
 
     }
 
-    html{
-        background-color: black;
-    }
-
     .benfit {
         display: block;
         column-count: 1;
@@ -29,8 +25,11 @@
         border: 2px black solid;
         border-collapse: collapse;
         background-color: rgba(220, 220, 220, 1);
-        padding: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-left: -.75%;
         border-radius: 9%;
+        box-shadow: maroon 14px 10px;
     }
 
     .bt p {

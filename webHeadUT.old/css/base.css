@@ -1,0 +1,147 @@
+html{
+    background-color: snow;
+}
+
+body{
+    padding-left: .5%;
+}
+
+#topDeck{
+    height: 2em;
+    background: #800000;
+    width: 99.75%;
+    margin-top: -1em;
+}
+header{
+    padding: 1.5em;
+    width: 94.125%;
+    display: flex;
+    align-content: center;
+    color: #dddddd;
+    border: .5px gray solid;
+    height: 3em;
+    position: fixed;
+    background-color: rgba(255, 255, 255,.6)
+}
+header nav {
+    font-size: 30px;
+    align-self: center;
+    padding-top: 1em;
+    padding-left: 1em;
+    color: black;
+    height: 1.5em;
+}
+
+header a.addLink{
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+header a.addLink:hover{
+    color: blue;
+    font-style: italic;
+}
+
+#logoMain{
+    width: 20em;
+    margin-top: -2.25em;
+}
+
+::selection{
+    color: lightcoral;
+}
+
+footer{
+    background-color: #800000;
+    color: white;
+    width: 99.75%;
+}
+footer #hl{
+    width: 80px;
+    height: 70px;
+    padding-top: 3em;
+    padding-left: 1.5em;
+}
+footer #footContent{
+    display: flex;
+    flex-direction: inherit;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -80px;
+}
+
+.fc{
+    padding-left: 5.75em;
+}
+
+footer nav {
+    font-size: 14px;
+    align-self: center;
+    padding-left: 5em;
+    color: black;
+    height: 1.5em;
+    display: grid;
+    margin-top: -1.5em;
+}
+
+footer a.addLink{
+    padding: .2em;
+    color: black;
+    text-decoration: none;
+}
+footer a.addLink:hover{
+    color: blue;
+    font-style: italic;
+}
+footer #footCon h3{
+    padding-left: 1em;
+    color: black;
+}
+
+footer #footCon p{
+    margin-top: -7px;
+    padding-left: 1.25em;
+}
+
+footer #footSoc{
+    text-align: center;
+    padding-top: 4.5em;
+    padding-left: 3em;
+    display: flex;
+}
+
+footer #footSoc .fsoc{
+font-size: 36px;
+    color: black;
+    padding: 10px;
+}
+
+footer #footSoc .fsoc i{
+    color:  black;
+}
+
+footer #footSoc .fsoc img{
+    color:  black;
+    width: 1em;
+    margin-top: -.23em;
+}
+
+footer #credit{
+    font-size: 12px;
+    text-align: center;
+}
+footer #credit a{
+    color: black;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+footer #credit img{
+    width: 8em;
+}
+
+footer #cc{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: -.75em;
+}

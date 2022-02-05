@@ -25,3 +25,20 @@ main i{
     border-radius: .4em;
     padding-right: -10px;
 }
+
+.mapouter {
+    text-align:right;'
+    height:545px;
+    width:515px;
+}
+
+iframe{
+    width:515px ;
+    height:545px;
+}
+.gmap_canvas{
+overflow:hidden;
+    background:none!important;
+    height:545px;
+    width:515px;
+}

@@ -10,8 +10,27 @@
     }
 
     header a.addLink {
-        padding: 1em 1em 3em 1em;
+        padding: .75em;
+        margin: 0;
         color: black;
         text-decoration: none;
     }
+
+    footer nav {
+        margin-top: -100px;
+    }
+
+    footer a.addLink {
+        padding: .7em;
+        margin: 0;
+        margin-top: -15px;
+        color: black;
+        text-decoration: none;
+        font-size: 20px !important;
+    }
+
+    #credit, #cc{
+        font-size: 5.75px !important;
+    }
+
 }
