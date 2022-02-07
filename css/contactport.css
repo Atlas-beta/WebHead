@@ -1,0 +1,49 @@
+@media (max-device-width: 400px) {
+    main {
+        padding-top: 8em;
+    }
+
+    #direct {
+        display: block;
+        column-count: 1;
+    }
+
+    #contactsOpt {
+        display: block;
+        column-count: 1;
+        padding-left: 10em;
+    }
+
+
+    .cOpt {
+        display: flex;
+        column-count: 2;
+    }
+
+    .cOpt p{
+        padding-left: 1.125em;
+    }
+
+    main i {
+        font-size: 60px;
+        border: .05em black solid;
+        background-color: #800000;
+        padding: 10px;
+        border-radius: .4em;
+        padding-right: -10px;
+    }
+
+    .mapouter{
+        padding-left: 1.75em;
+        width: 95%; !important;
+    }
+
+    iframe{
+        width:95% ;
+    }
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        width: 95%;
+    }
+}

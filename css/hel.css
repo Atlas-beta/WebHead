@@ -1,0 +1,91 @@
+main{
+    background: lightgray;
+    width: 880px;
+    margin: 0px auto;
+    padding: 24px 60px;
+    padding-top: 8em;
+}
+
+section {
+    margin-top: 64px;
+}
+
+fieldset {
+    border: 2px solid grey;
+    margin: 20px 0 64px 40px;
+    padding: 32px 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+    padding: 0 6px;
+}
+
+label{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    width: 160px;
+}
+#textAreP {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    width: 160px;
+}
+
+fieldset label, #textAreP {
+    width: 112px;
+}
+input[type="text"], select, input[type="date"], input[type="email"] {
+    height: 40px;
+    border: 3px grey solid;
+    font-size: 16px;
+    text-align: left;
+    padding: 4px 12px;
+    margin-left: 20px;
+}
+
+input:focus, select:focus {
+    outline: 3px maroon solid;
+}
+
+input[type="submit"] {
+    background-color: maroon;
+    border: 3px gray solid;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 4px 12px;
+    margin-left: 190px;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+}
+
+input[type="file"]{
+    color: gray;
+    font-weight: bold;
+    outline: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#box{
+    padding-left: 5em;
+}
+
+textarea  {
+    color: gray;
+    font-weight: normal;
+    outline: none;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 10em;
+}
+
+

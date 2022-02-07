@@ -1,0 +1,39 @@
+main{
+    padding-top: 8em;
+}
+
+.service{
+    padding-left: 10%;
+    align-self: center;
+    column-count: 1;
+    display: block;
+    display-model: inline;
+}
+
+.square{
+    display: flex;
+    column-count: 2;
+}
+
+.square .imgHold{
+    background-color: maroon;
+    width: 400px;
+    height: 600px;
+    border: double black 2px;
+    margin: 2em;
+}
+
+.imgHold img{
+    padding-left: 25px;
+    align-self: center;
+    padding-top: 10%;
+    width: 350px;
+}
+
+.tab_ser{
+    width: 5px;
+}
+#2ser{
+    margin-top: 3em;
+    margin-left: -1.5em;
+}
