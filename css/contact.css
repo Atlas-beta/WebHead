@@ -54,3 +54,21 @@ overflow:hidden;
     height:545px;
     width:515px;
 }
+
+#bingCon{
+    width: 2.6em;
+    border: .09em black solid;
+    background-color: #800000;
+    padding: 10px;
+    border-radius: .6em;
+    padding-right: -10px;
+}
+
+#conBlok{
+    width: 2.6em;
+    height: 3em;
+    background-color: white;
+    padding: 10px;
+    border-radius: .6em;
+    padding-right: -10px;
+}
